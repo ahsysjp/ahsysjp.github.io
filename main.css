@@ -1,0 +1,43 @@
+.dltable {
+    width: 90%;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    margin: 15px;
+    background-color: #fff;
+
+    .row1 {
+        width: 20%;
+    }
+    .row2 {
+        width: 20%;
+    }
+    .row3 {
+        width: 20%;
+    }
+    .row4 {
+        width: 20%;
+    }
+    .row5 {
+        width: 20%;
+    }
+
+    dl {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        text-align: center;
+        font-size: 12px;
+        border-bottom: 1px solid #ccc;
+        &:last-child {
+            border-bottom: none;
+        }
+        dt {
+            padding: 10px 0;
+            background: #f2f2f2 none repeat scroll 0 0;
+            color: #333;
+        }
+        dd {
+            padding: 10px 0;
+        }
+    }
+}
