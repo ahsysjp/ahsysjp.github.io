@@ -41,3 +41,11 @@
         }
     }
 }
+
+.console {
+    background: black;
+    color: gray;
+    margin: 2em;
+    padding: 2em;
+    font-weight: bold;
+}
